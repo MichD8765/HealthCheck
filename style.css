@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+.blog-card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+.blog-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.comment-section {
+    margin-top: 10px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.comment-section h5 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.comment-input {
+    margin-top: 10px;
+}
+.comment {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.blog-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.blog-actions .btn {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+.blog-actions .edit-blog-btn {
+    background-color: #5bc0de;
+    color: #ffffff;
+}
+.blog-actions .delete-blog-btn {
+    background-color: #d6d8db;
+    color: #333;
+}
+.blog-category {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: white;
+}
+.category-Technology {
+    background-color: #007bff;
+}
+.category-Lifestyle {
+    background-color: #28a745;
+}
+.category-Travel {
+    background-color: #ffc107;
+}
+.category-Food {
+    background-color: #dc3545;
+}
